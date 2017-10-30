@@ -1,5 +1,5 @@
 /*
-*	© Superharmonic Technologies
+*	Â© Superharmonic Technologies
 *	Pavlos Sakoglou
 *
 * ================================================================
@@ -15,6 +15,11 @@
 #include "Exception.hpp"
 
 int main() {
+	
+	// Spotting toxicity in comments with Regex
+	// To extend this application to extract further statistics you can 
+	// weight the bad words and output a toxicity score
+	// That is, when a bad word exception is thrown, trigger a toxicityScore() function
 
 	// Two users log-in
 	UserProfile user1, user2;
