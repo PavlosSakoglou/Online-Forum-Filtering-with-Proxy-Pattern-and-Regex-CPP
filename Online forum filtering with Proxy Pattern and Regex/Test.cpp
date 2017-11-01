@@ -47,6 +47,9 @@ int main() {
 		user2.post("Hi user1! I like traveling as well! I am planning a trip to Europe this summer!");
 		user1.post("Oh cool! Where at?");
 		user2.post("I am going to Belgium and The Netherlands!");
+		
+		// Hint: for comment toxicity component, store the posts in a vector and export in csv 
+		// for later analysis
 	}
 	catch (Exception & e) {
 		std::cout << e.what();
