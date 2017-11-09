@@ -2,11 +2,11 @@
 
 **Description**
 
-Mini application that demonstrates how the Proxy Pattern works in C++, by emulating a nano version of an online forum, where the users' profile activity (proxy) is being checked before a post is made. If someone uses profanity or has bad behavior, the admin class (authority profile) will deny access to the community temporarily. This application is quite limitted and only serves as a demonstration of the proxy concept.
+Mini application that demonstrates how the Proxy Pattern works in C++, by emulating a nano version of an online forum, where the users' profile activity (proxy) is being checked before a post is made. If someone uses profanity or has bad behavior, the admin class (authority profile) will deny access to the community temporarily. This application is quite limitted and only serves as a demonstration of the proxy concept, however it can be easily extended with a data analytics interface that keeps track of the posts and analyzes their toxicity.
 
 **Usage**
 
-Download and compile. No extra dependencies, only STL.
+Download and compile. No extra dependencies, only STL. 
 
 **The Proxy Pattern**
 
