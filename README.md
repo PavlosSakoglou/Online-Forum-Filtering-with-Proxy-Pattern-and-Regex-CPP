@@ -30,6 +30,5 @@ Is the interface that the user uses to post or naviage in the forum. Once they d
 
 **Exception hierarchy**
 
-Polymorphic behavior of exceptions in order to organize the "bad behavior" messages and inform the user of their status. For every illegal behavior we can create a derived exception class with its own error message. Alternatively, we can use the Template Method Pattern with universal function wrappers so we can avoid over population of derived classes. 
-
+Polymorphic behavior of exceptions in order to organize the "bad behavior" messages and inform the user of their status. For every illegal behavior we can create a derived exception class with its own error message. Alternatively, we can use the Template Method Pattern with universal function wrappers so we can avoid over population of derived classes
 
